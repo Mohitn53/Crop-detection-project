@@ -1,7 +1,7 @@
 const scanModel = require('../models/scan.model');
 const predictDisease = require('../service/diseaseDetection.service');
 const uploadImage = require('../service/storage.service');
-const { getSolution } = require('../../../disease_solutions');
+
 
 const scanController = async (req, res) => {
     try {
@@ -39,13 +39,17 @@ const scanController = async (req, res) => {
             throw new Error("Image upload failed: " + err.message);
         }
 
-        // Get detailed solution from database
-        const solution = getSolution(predictionResult.original_label || "Unknown");
+        // Check for AI error or missing data
+        if (predictionResult.error || !predictionResult.disease) {
+            console.warn("AI Analysis issue:", predictionResult);
+            // Ensure we have fallback values so saving doesn't crash
+            predictionResult.crop = predictionResult.crop || "Unknown";
+            predictionResult.disease = predictionResult.disease || (predictionResult.error ? "Analysis Error" : "Unknown");
+            predictionResult.confidence = predictionResult.confidence || 0;
+        }
 
-        // Construct the full object to save
-        // Check if healthy
-        const isHealthy = predictionResult.disease.toLowerCase() === "healthy";
-        const status = isHealthy ? "HEALTHY" : "DISEASED";
+        const isHealthy = predictionResult.disease && predictionResult.disease.toLowerCase() === "healthy";
+        const status = predictionResult.error ? "FAILED" : (isHealthy ? "HEALTHY" : "DISEASED");
 
         const newScan = await scanModel.create({
             imageUrl: uploadResult.url,
@@ -53,10 +57,7 @@ const scanController = async (req, res) => {
             condition: predictionResult.disease,
             status: status,
             confidence: predictionResult.confidence,
-            fullReport: {
-                detection: predictionResult,
-                solution: solution
-            },
+            fullReport: predictionResult,
             user: req.user._id
         });
 

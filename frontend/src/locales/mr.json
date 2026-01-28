@@ -1,0 +1,110 @@
+{
+    "splash": {
+        "appName": "क्रॉप गार्ड",
+        "tagline": "शेतकऱ्यांसाठी ऑफलाइन AI",
+        "start": "सुरू करा",
+        "selectLanguage": "भाषा निवडा"
+    },
+    "auth": {
+        "login": "लॉगिन",
+        "register": "नोंदणी",
+        "username": "वापरकर्तानाव",
+        "email": "ईमेल",
+        "password": "पासवर्ड",
+        "confirmPassword": "पासवर्डची पुष्टी करा",
+        "forgotPassword": "पासवर्ड विसरलात?",
+        "noAccount": "खाते नाही?",
+        "haveAccount": "आधीच खाते आहे?",
+        "loginButton": "साइन इन करा",
+        "registerButton": "साइन अप करा"
+    },
+    "home": {
+        "greeting": "नमस्कार",
+        "scanCrop": "पीक स्कॅन करा",
+        "detectDiseases": "त्वरित रोग शोधा",
+        "history": "इतिहास",
+        "pastScans": "मागील स्कॅन",
+        "settings": "सेटिंग्ज",
+        "preferences": "प्राधान्ये",
+        "logout": "लॉगआउट",
+        "logoutConfirm": "तुम्हाला खात्री आहे की तुम्ही लॉगआउट करू इच्छिता?",
+        "nearbyDepartments": "जवळचे कृषी विभाग",
+        "locationPermission": "जवळचे विभाग शोधण्यासाठी स्थान सक्षम करा",
+        "noNearbyDepartments": "जवळपास कोणतेही विभाग आढळले नाहीत",
+        "distance": "किमी दूर",
+        "getDirections": "दिशानिर्देश मिळवा",
+        "profitableCrops": "या हंगामासाठी शिफारस केलेली पिके",
+        "basedOnLocation": "तुमच्या स्थानावर आणि सध्याच्या हंगामावर आधारित",
+        "weatherAlert": "हवामान सूचना",
+        "noAlerts": "हवामान सूचना नाहीत. परिस्थिती अनुकूल आहे!",
+        "goodWeather": "चांगल्या हवामानाची अपेक्षा आहे",
+        "season": "हंगाम"
+    },
+    "camera": {
+        "title": "तुमचे पीक स्कॅन करा",
+        "takePhoto": "फोटो घ्या",
+        "chooseGallery": "गॅलरीमधून निवडा",
+        "cancel": "रद्द करा",
+        "permission": "कॅमेरा परवानगी आवश्यक",
+        "permissionMessage": "कृपया पीक स्कॅन करण्यासाठी कॅमेरा प्रवेशाची परवानगी द्या"
+    },
+    "detection": {
+        "analyzing": "पीक आरोग्याचे विश्लेषण...",
+        "error": "त्रुटी",
+        "goHome": "होमवर जा",
+        "plant": "अज्ञात वनस्पती",
+        "confidence": "विश्वास",
+        "treatment": "उपचार योजना",
+        "organic": "सेंद्रिय उपचार",
+        "chemical": "रासायनिक उपचार",
+        "maintenance": "देखभाल सूचना",
+        "prevention": "प्रतिबंध",
+        "recommendation": "शिफारस",
+        "severity": "तीव्रता",
+        "done": "पूर्ण",
+        "listen": "ऐका",
+        "stop": "थांबवा",
+        "noData": "कोणताही विशिष्ट उपचार डेटा उपलब्ध नाही.",
+        "feedbackTitle": "त्वरित अभिप्राय",
+        "feedbackQuestion": "ही माहिती उपयुक्त होती का?",
+        "feedbackComment": "काही अतिरिक्त टिप्पण्या? (पर्यायी)",
+        "feedbackSubmit": "अभिप्राय सबमिट करा",
+        "feedbackThanks": "तुमच्या अभिप्रायाबद्दल धन्यवाद!"
+    },
+    "history": {
+        "title": "स्कॅन इतिहास",
+        "noHistory": "अद्याप स्कॅन नाहीत",
+        "startScanning": "तुमचा इतिहास येथे पाहण्यासाठी पिके स्कॅन करणे सुरू करा",
+        "healthy": "निरोगी",
+        "diseased": "रोगग्रस्त"
+    },
+    "settings": {
+        "title": "सेटिंग्ज",
+        "profile": "प्रोफाइल",
+        "uiLanguage": "भाषा",
+        "uiLanguageDesc": "संपूर्ण अॅपची भाषा बदला (मजकूर आणि आवाज)",
+        "about": "बद्दल",
+        "appVersion": "अॅप आवृत्ती",
+        "model": "मॉडेल",
+        "modelName": "वनस्पती रोग शोध",
+        "selectLanguage": "भाषा निवडा",
+        "cancel": "रद्द करा"
+    },
+    "languages": {
+        "en": "इंग्रजी",
+        "hi": "हिंदी",
+        "mr": "मराठी"
+    },
+    "common": {
+        "ok": "ठीक आहे",
+        "cancel": "रद्द करा",
+        "yes": "होय",
+        "no": "नाही",
+        "save": "जतन करा",
+        "delete": "हटवा",
+        "edit": "संपादित करा",
+        "loading": "लोड होत आहे...",
+        "error": "त्रुटी",
+        "success": "यश"
+    }
+}

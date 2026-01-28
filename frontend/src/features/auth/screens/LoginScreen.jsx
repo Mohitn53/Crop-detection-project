@@ -3,10 +3,12 @@ import { View, Text, TouchableOpacity, StyleSheet, SafeAreaView, TextInput, Acti
 import { useNavigation } from '@react-navigation/native';
 import { colors, spacing, typography } from '../../../core/theme';
 import { useAuth } from '../../../store/authStore';
+import { useLanguage } from '../../../store/languageStore';
 
 export default function LoginScreen() {
     const navigation = useNavigation();
     const { login } = useAuth();
+    const { t } = useLanguage();
 
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
@@ -40,16 +42,16 @@ export default function LoginScreen() {
             >
                 <ScrollView contentContainerStyle={styles.scrollContent}>
                     <View style={styles.content}>
-                        <Text style={styles.title}>Welcome Back</Text>
-                        <Text style={styles.subtitle}>Sign in to continue</Text>
+                        <Text style={styles.title}>{t('auth.login')}</Text>
+                        <Text style={styles.subtitle}>{t('auth.loginButton')}</Text>
 
                         {error ? <Text style={styles.errorText}>{error}</Text> : null}
 
                         <View style={styles.inputContainer}>
-                            <Text style={styles.label}>Username</Text>
+                            <Text style={styles.label}>{t('auth.username')}</Text>
                             <TextInput
                                 style={styles.input}
-                                placeholder="Enter your username"
+                                placeholder={t('auth.username')}
                                 placeholderTextColor={colors.light.textSecondary}
                                 value={username}
                                 onChangeText={setUsername}
@@ -58,10 +60,10 @@ export default function LoginScreen() {
                         </View>
 
                         <View style={styles.inputContainer}>
-                            <Text style={styles.label}>Password</Text>
+                            <Text style={styles.label}>{t('auth.password')}</Text>
                             <TextInput
                                 style={styles.input}
-                                placeholder="Enter your password"
+                                placeholder={t('auth.password')}
                                 placeholderTextColor={colors.light.textSecondary}
                                 value={password}
                                 onChangeText={setPassword}
@@ -77,7 +79,7 @@ export default function LoginScreen() {
                             {isSubmitting ? (
                                 <ActivityIndicator color="#fff" />
                             ) : (
-                                <Text style={styles.buttonText}>Login</Text>
+                                <Text style={styles.buttonText}>{t('auth.loginButton')}</Text>
                             )}
                         </TouchableOpacity>
 
@@ -85,7 +87,7 @@ export default function LoginScreen() {
                             style={[styles.button, styles.secondaryButton]}
                             onPress={() => navigation.navigate('Register')}
                         >
-                            <Text style={[styles.buttonText, styles.secondaryButtonText]}>Create Account</Text>
+                            <Text style={[styles.buttonText, styles.secondaryButtonText]}>{t('auth.registerButton')}</Text>
                         </TouchableOpacity>
                     </View>
                 </ScrollView>

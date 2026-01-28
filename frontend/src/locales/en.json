@@ -1,0 +1,110 @@
+{
+    "splash": {
+        "appName": "Crop Guard",
+        "tagline": "Offline AI for Farmers",
+        "start": "Start",
+        "selectLanguage": "Select Language"
+    },
+    "auth": {
+        "login": "Login",
+        "register": "Register",
+        "username": "Username",
+        "email": "Email",
+        "password": "Password",
+        "confirmPassword": "Confirm Password",
+        "forgotPassword": "Forgot Password?",
+        "noAccount": "Don't have an account?",
+        "haveAccount": "Already have an account?",
+        "loginButton": "Sign In",
+        "registerButton": "Sign Up"
+    },
+    "home": {
+        "greeting": "Hello",
+        "scanCrop": "Scan Crop",
+        "detectDiseases": "Detect diseases instantly",
+        "history": "History",
+        "pastScans": "Past scans",
+        "settings": "Settings",
+        "preferences": "Preferences",
+        "logout": "Logout",
+        "logoutConfirm": "Are you sure you want to logout?",
+        "nearbyDepartments": "Nearby Agricultural Departments",
+        "locationPermission": "Enable location to find nearby departments",
+        "noNearbyDepartments": "No departments found nearby",
+        "distance": "km away",
+        "getDirections": "Get Directions",
+        "profitableCrops": "Recommended Crops for This Season",
+        "basedOnLocation": "Based on your location and current season",
+        "weatherAlert": "Weather Alert",
+        "noAlerts": "No weather alerts. Conditions are favorable!",
+        "goodWeather": "Good weather conditions expected",
+        "season": "Season"
+    },
+    "camera": {
+        "title": "Scan Your Crop",
+        "takePhoto": "Take Photo",
+        "chooseGallery": "Choose from Gallery",
+        "cancel": "Cancel",
+        "permission": "Camera Permission Required",
+        "permissionMessage": "Please allow camera access to scan crops"
+    },
+    "detection": {
+        "analyzing": "Analyzing Crop Health...",
+        "error": "Error",
+        "goHome": "Go Home",
+        "plant": "Unknown Plant",
+        "confidence": "Confidence",
+        "treatment": "Treatment Plan",
+        "organic": "Organic Treatment",
+        "chemical": "Chemical Treatment",
+        "maintenance": "Maintenance Tips",
+        "prevention": "Prevention",
+        "recommendation": "Recommendation",
+        "severity": "Severity",
+        "done": "Done",
+        "listen": "Listen",
+        "stop": "Stop",
+        "noData": "No specific treatment data available.",
+        "feedbackTitle": "Quick Feedback",
+        "feedbackQuestion": "Was this information helpful?",
+        "feedbackComment": "Any additional comments? (Optional)",
+        "feedbackSubmit": "Submit Feedback",
+        "feedbackThanks": "Thank you for your feedback!"
+    },
+    "history": {
+        "title": "Scan History",
+        "noHistory": "No scans yet",
+        "startScanning": "Start scanning crops to see your history here",
+        "healthy": "Healthy",
+        "diseased": "Diseased"
+    },
+    "settings": {
+        "title": "Settings",
+        "profile": "Profile",
+        "uiLanguage": "Language",
+        "uiLanguageDesc": "Change the language for the entire app (text and voice)",
+        "about": "About",
+        "appVersion": "App Version",
+        "model": "Model",
+        "modelName": "Plant Disease Detection",
+        "selectLanguage": "Select Language",
+        "cancel": "Cancel"
+    },
+    "languages": {
+        "en": "English",
+        "hi": "Hindi",
+        "mr": "Marathi"
+    },
+    "common": {
+        "ok": "OK",
+        "cancel": "Cancel",
+        "yes": "Yes",
+        "no": "No",
+        "save": "Save",
+        "delete": "Delete",
+        "edit": "Edit",
+        "loading": "Loading...",
+        "error": "Error",
+        "success": "Success"
+    }
+}

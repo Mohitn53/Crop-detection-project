@@ -1,5 +1,5 @@
 const postModel = require('../models/post.model');
-const generateCaption = require('../service/ai.service');
+const { generateCaption } = require('../service/ai.service');
 const uploadImage = require('../service/storage.service');
 
 const postController = async (req, res) => {
@@ -10,13 +10,13 @@ const postController = async (req, res) => {
         const result = await uploadImage(file.buffer, file.originalname);
         const newPost = await postModel.create({
             caption: caption,
-            image: result.url,  
-            userid:req.user._id
+            image: result.url,
+            userid: req.user._id
         });
         res.status(201).json({
             message: 'Post created successfully',
             post: newPost
-            
+
         });
 
     } catch (error) {

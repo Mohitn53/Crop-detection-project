@@ -1,0 +1,110 @@
+{
+    "splash": {
+        "appName": "क्रॉप गार्ड",
+        "tagline": "किसानों के लिए ऑफलाइन AI",
+        "start": "शुरू करें",
+        "selectLanguage": "भाषा चुनें"
+    },
+    "auth": {
+        "login": "लॉगिन",
+        "register": "रजिस्टर",
+        "username": "उपयोगकर्ता नाम",
+        "email": "ईमेल",
+        "password": "पासवर्ड",
+        "confirmPassword": "पासवर्ड की पुष्टि करें",
+        "forgotPassword": "पासवर्ड भूल गए?",
+        "noAccount": "खाता नहीं है?",
+        "haveAccount": "पहले से खाता है?",
+        "loginButton": "साइन इन करें",
+        "registerButton": "साइन अप करें"
+    },
+    "home": {
+        "greeting": "नमस्ते",
+        "scanCrop": "फसल स्कैन करें",
+        "detectDiseases": "तुरंत बीमारियों का पता लगाएं",
+        "history": "इतिहास",
+        "pastScans": "पिछले स्कैन",
+        "settings": "सेटिंग्स",
+        "preferences": "प्राथमिकताएं",
+        "logout": "लॉगआउट",
+        "logoutConfirm": "क्या आप वाकई लॉगआउट करना चाहते हैं?",
+        "nearbyDepartments": "नजदीकी कृषि विभाग",
+        "locationPermission": "नजदीकी विभाग खोजने के लिए स्थान सक्षम करें",
+        "noNearbyDepartments": "आस-पास कोई विभाग नहीं मिला",
+        "distance": "किमी दूर",
+        "getDirections": "दिशा-निर्देश प्राप्त करें",
+        "profitableCrops": "इस मौसम के लिए अनुशंसित फसलें",
+        "basedOnLocation": "आपके स्थान और वर्तमान मौसम के आधार पर",
+        "weatherAlert": "मौसम चेतावनी",
+        "noAlerts": "कोई मौसम चेतावनी नहीं। स्थितियां अनुकूल हैं!",
+        "goodWeather": "अच्छे मौसम की स्थिति की उम्मीद है",
+        "season": "मौसम"
+    },
+    "camera": {
+        "title": "अपनी फसल स्कैन करें",
+        "takePhoto": "फोटो लें",
+        "chooseGallery": "गैलरी से चुनें",
+        "cancel": "रद्द करें",
+        "permission": "कैमरा अनुमति आवश्यक",
+        "permissionMessage": "कृपया फसल स्कैन करने के लिए कैमरा एक्सेस की अनुमति दें"
+    },
+    "detection": {
+        "analyzing": "फसल स्वास्थ्य का विश्लेषण...",
+        "error": "त्रुटि",
+        "goHome": "होम पर जाएं",
+        "plant": "अज्ञात पौधा",
+        "confidence": "विश्वास",
+        "treatment": "उपचार योजना",
+        "organic": "जैविक उपचार",
+        "chemical": "रासायनिक उपचार",
+        "maintenance": "रखरखाव सुझाव",
+        "prevention": "रोकथाम",
+        "recommendation": "सिफारिश",
+        "severity": "गंभीरता",
+        "done": "पूर्ण",
+        "listen": "सुनें",
+        "stop": "रोकें",
+        "noData": "कोई विशिष्ट उपचार डेटा उपलब्ध नहीं है।",
+        "feedbackTitle": "त्वरित प्रतिक्रिया",
+        "feedbackQuestion": "क्या यह जानकारी सहायक थी?",
+        "feedbackComment": "कोई अतिरिक्त टिप्पणी? (वैकल्पिक)",
+        "feedbackSubmit": "प्रतिक्रिया सबमिट करें",
+        "feedbackThanks": "आपकी प्रतिक्रिया के लिए धन्यवाद!"
+    },
+    "history": {
+        "title": "स्कैन इतिहास",
+        "noHistory": "अभी तक कोई स्कैन नहीं",
+        "startScanning": "अपना इतिहास देखने के लिए फसलों को स्कैन करना शुरू करें",
+        "healthy": "स्वस्थ",
+        "diseased": "रोगग्रस्त"
+    },
+    "settings": {
+        "title": "सेटिंग्स",
+        "profile": "प्रोफाइल",
+        "uiLanguage": "भाषा",
+        "uiLanguageDesc": "पूरे ऐप की भाषा बदलें (टेक्स्ट और आवाज़)",
+        "about": "के बारे में",
+        "appVersion": "ऐप संस्करण",
+        "model": "मॉडल",
+        "modelName": "पौधे रोग पहचान",
+        "selectLanguage": "भाषा चुनें",
+        "cancel": "रद्द करें"
+    },
+    "languages": {
+        "en": "अंग्रेज़ी",
+        "hi": "हिंदी",
+        "mr": "मराठी"
+    },
+    "common": {
+        "ok": "ठीक है",
+        "cancel": "रद्द करें",
+        "yes": "हाँ",
+        "no": "नहीं",
+        "save": "सहेजें",
+        "delete": "हटाएं",
+        "edit": "संपादित करें",
+        "loading": "लोड हो रहा है...",
+        "error": "त्रुटि",
+        "success": "सफलता"
+    }
+}
